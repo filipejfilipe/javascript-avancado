@@ -18,3 +18,4 @@ https://github.com/filipejfilipe/javascript-avancado
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
+delta

@@ -3,8 +3,8 @@ function Imóvel(rua, número, cidade, códigoPostalPrincipal, códigoPostalsecu
 	this.rua = rua;
 	this.número = número;
 	this.cidade = cidade;
-	this.códigoPostalPrincipal = códigoPostalPrincipal;
+	this.códigoPostalPrincipal = códigoPostalPrincipal;			// alteracao!!!!
 	this.códigoPostalsecundário = códigoPostalsecundário;
 	this.valor = valor;
-
+	
 }

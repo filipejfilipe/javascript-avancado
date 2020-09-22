@@ -4,7 +4,7 @@ function Imóvel(rua, número, cidade, códigoPostalPrincipal, códigoPostalsecu
 	this.número = número;
 	this.cidade = cidade;
 	this.códigoPostalPrincipal = códigoPostalPrincipal;			// alteracao!!!!
-	this.códigoPostalsecundário = códigoPostalsecundário;
+	this.códigoPostalsecundário = códigoPostalsecundário;		// alteracao2
 	this.valor = valor;
 	
 }

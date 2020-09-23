@@ -1,4 +1,6 @@
 function preparar() {
+	document.querySelector(".lista__btn").addEventListener('click', mybutton);
+	
 	let aviso = false;
 	document.querySelectorAll(".copiável code").forEach(code => {
 		code.addEventListener("click", function (clique) {

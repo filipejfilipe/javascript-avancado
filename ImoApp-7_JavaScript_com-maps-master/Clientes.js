@@ -9,4 +9,7 @@ class Clientes {
 		this.coleção.set(cliente.email, cliente); // o campo email é escolhido como chave no Map
 	}
 
+	procurar(email) {
+		return this.coleção.get(email);
+	}
 }

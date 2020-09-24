@@ -36,6 +36,10 @@ class Imóveis {
 		return lista;
 	}
 
+	procurarEm3(cidade) {
+		popular("Lisboa", ".lista");
+	}
+
 	// imoApp.imóveis.popular("Lisboa", "")
 	/*
 	popular(cidade, id) {

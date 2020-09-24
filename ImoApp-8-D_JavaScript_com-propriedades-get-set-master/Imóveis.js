@@ -37,9 +37,9 @@ class Imóveis {
 	}
 
 	// imoApp.imóveis.popular("Lisboa", "")
+	/*
 	popular(cidade, id) {
 		let lista=this.procurarEm2(cidade);
-		//let ul = document.querySelector(".lista");
 		let ul = document.querySelector(id);
 		for (const cur of lista)	{
 			var listItem = document.createElement("li");
@@ -47,6 +47,7 @@ class Imóveis {
 			ul.appendChild(listItem);
 		}
 	}
+	/*
 
 	/*
 	button() {

@@ -4,7 +4,8 @@
 
 function mybutton() {
 		//imoApp.imóveis.popular("Lisboa", ".lista");
-		popular("Lisboa", ".lista");
+		let valorUI=document.getElementById("fname").value;
+		popular(valorUI, ".lista");
 	}
 
 function popular(cidade, id) {
